@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
+// Scans our app for our controllers
 @ComponentScan
 public class AppConfig {
     public static void main(String[] args) {
