@@ -1,5 +1,8 @@
 package com.teamtreehouse.giflib.model;
 
+import org.springframework.stereotype.Controller;
+
+
 public class Category {
 
     private int id;                             // Private variables

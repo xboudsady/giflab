@@ -4,6 +4,7 @@ import com.teamtreehouse.giflib.model.Gif;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,6 +33,18 @@ public class GifRepository {
     // Public access to our private data list
     public List<Gif> getAllGifs() {
         return ALL_GIFS;
+    }
+
+    // Loops through our list to find item with category ID
+    public List<Gif> findByCategoryId(int id) {
+        // Initiatlize a brand new empty list
+        List<Gif> gifs = new ArrayList<>();
+        for (Gif gif : ALL_GIFS) {
+            if (gif.getCategoryId() == id) {
+                gifs.add(gif);
+            }
+        }
+        return gifs;
     }
 
 }

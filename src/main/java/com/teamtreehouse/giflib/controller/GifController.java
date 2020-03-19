@@ -1,7 +1,9 @@
 package com.teamtreehouse.giflib.controller;
 
 import com.sun.org.apache.xpath.internal.operations.Mod;
+import com.teamtreehouse.giflib.data.CategoryRepository;
 import com.teamtreehouse.giflib.data.GifRepository;
+import com.teamtreehouse.giflib.model.Category;
 import com.teamtreehouse.giflib.model.Gif;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -33,5 +35,6 @@ public class GifController {
         modelMap.put("gif", gif);                      // Add to modelMap
         return "gif-details";
     }
+
 
 }
