@@ -3,7 +3,7 @@
 
 Java Web Application built using the Spring Boot Web Framework, to demonstrate it's functionality.
 
-App Preview **[here]()**
+App Preview **[here](https://giflabxb.herokuapp.com/)**
 
 ### Technology
 * **Programming Language - [Java](https://go.java/?intcmp=gojava-banner-java-com)**
