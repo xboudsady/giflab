@@ -25,4 +25,8 @@ App Preview **[here]()**
   
 ### Screenshots
   
+![Main Page](src/main/resources/static/img/2020-03-18_21-34-30.png)
   
+![Category](src/main/resources/static/img/2020-03-18_21-34-48.png)
+
+![Gif](src/main/resources/static/img/2020-03-18_21-42-37.png)
